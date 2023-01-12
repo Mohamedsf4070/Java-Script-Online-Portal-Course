@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/Final.css">
+    <script src="final.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <img class="main_img" src="syncfusionImg.png" alt="syncfusionImage"></li>
+         <ul class="main_list">
+            <li style="font-weight:bold">Library Portal</li>
+            <li><a href="" style="font-weight: bold;" >Books</a></li>
+         </ul>
+         <hr border=2px width="100%" color="black">
+         <section class="main_section1">
+            <p style="font:bold 19px arial">Add New Book</p>
+            <form action="result.html">
+                <p style="font-weight:bold">Category <select required name="IT" id="dropdown">
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                </select></p>
+                <p style="font-weight:bold" >Book<input type="text" required id="book" onblur="CheckBookName()" onmouseover="ClearBookName()" ></p>
+                <p style="font-weight:bold" >Author Email<input type="text" required id="email" onblur=" CheckEmail()" onmouseover="Clearemail()"></p>
+                <p style="font-weight:bold" >Author Name<input type="text" required id="name" onblur="CheckaAuthorName()" onmouseover="ClearAuthorName()"></p>
+                <p style="font-weight:bold" >Published<input type="text" required id="publish" onblur="CheckDate()" onmouseover="ClearDate()"></p>
+                <p style="font-weight:bold" >Price<input type="text" required id="price" onblur="CheckPrice()" onmouseover="ClearPrice()"></p>
+                <input type="button" value="Save" id="store" class="design" onclick="Store()">
+                <input type="button" value="Cancel" id="cancel" class="design" onclick="Cancellation()">
+                <input type="submit" value="Show" id="show" >
+                <hr border=2px width="100%" color="black">
+                <p style="font-weight:bold">Copyright-@2019-present Syncfusion</p>
+            </form>
+         </section>
+    </div>
+</body>
+</html>

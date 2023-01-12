@@ -1,0 +1,98 @@
+.main {
+  width: 1250px;
+  height: 544px;
+  border: 2px solid black;
+  padding-top: 15px;
+}
+.main_img {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.main_list {
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 30px;
+  padding: 0px;
+  display: flex;
+}
+.main_list li {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.main_list a {
+  text-decoration: none;
+}
+.main_section1 p {
+  margin-left: 25px;
+}
+
+#dropdown {
+  margin-left: 45px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  width: 356px;
+  height: 40px;
+}
+
+#book {
+  margin-left: 45px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 77px;
+}
+
+#email {
+  margin-left: 45px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+#name {
+  margin-left: 45px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+#publish {
+  margin-left: 45px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 45px;
+}
+
+#price {
+  margin-left: 45px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 77px;
+}
+
+.design {
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 28px;
+  font-size: 14px;
+  width: 220px;
+  height: 37px;
+}
+
+#show {
+  background-color: transparent;
+  border: 1px solid black;
+  margin-left: 35px;
+  width: 170px;
+  height: 30px;
+}/*# sourceMappingURL=Final.css.map */
